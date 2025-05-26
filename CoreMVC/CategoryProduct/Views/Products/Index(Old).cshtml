@@ -1,0 +1,106 @@
+﻿@model IEnumerable<CategoryProduct.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@section Styles
+{
+	<link href="~/css/table.min.css" rel="stylesheet" asp-append-version="true" />
+    @* <style> *@
+    @* .table { */ *@
+    @* /*   --bs-table-bg: transparent; */ *@
+    @* /*   --bs-table-accent-bg: transparent; */ *@
+    @* /*   --bs-table-striped-color: #212529; */ *@
+    @* /*   --bs-table-striped-bg: rgba(255, 0, 0, 0.05); */ *@
+    @* /*   --bs-table-active-color: #212529; */ *@
+    @* /*   --bs-table-active-bg: rgba(0, 0, 0, 0.1); */ *@
+    @* /*   --bs-table-hover-color: #212529; */ *@
+    @* /*   --bs-table-hover-bg: rgba(0, 0, 0, 0.075); */ *@
+    @* /*   width: 100%; */ *@
+    @* /*   margin-bottom: 1rem; */ *@
+    @* /*   color: #212529; */ *@
+    @* /*   vertical-align: top; */ *@
+    @* /*   border-color: #dee2e6; */ *@
+    @* /* 改成獨立樣式檔案->css >table樣式表 *@
+    @* } *@
+    @* </style> *@
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-secondary">Create New</a>
+</p>
+<table class="table table-striped table-hover">
+    <thead class="table-danger">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SupplierId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QuantityPerUnit)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnitPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnitsInStock)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnitsOnOrder)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReorderLevel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Discontinued)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SupplierId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuantityPerUnit)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnitPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnitsInStock)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnitsOnOrder)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReorderLevel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Discontinued)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.CategoryId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ProductId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ProductId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,8 @@
+[
+  {
+    "outputFileName": "wwwroot/jQueryFreezeHeader/jquery.freezeheader.min.js",
+    "inputFiles": [
+      "wwwroot/jQueryFreezeHeader/jquery.freezeheader.js"
+    ]
+  }
+]

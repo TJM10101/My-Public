@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tibame\\Desktop\\MVC\\CoreMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07CB3329-1F93-43AA-91C8-90B072FAD2D3}|CustomerOrder\\CustomerOrder.csproj|c:\\users\\tibame\\desktop\\mvc\\coremvc\\customerorder\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CB3329-1F93-43AA-91C8-90B072FAD2D3}|CustomerOrder\\CustomerOrder.csproj|solutionrelative:customerorder\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CB3329-1F93-43AA-91C8-90B072FAD2D3}|CustomerOrder\\CustomerOrder.csproj|c:\\users\\tibame\\desktop\\mvc\\coremvc\\customerorder\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CB3329-1F93-43AA-91C8-90B072FAD2D3}|CustomerOrder\\CustomerOrder.csproj|solutionrelative:customerorder\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CB3329-1F93-43AA-91C8-90B072FAD2D3}|CustomerOrder\\CustomerOrder.csproj|c:\\users\\tibame\\desktop\\mvc\\coremvc\\customerorder\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CB3329-1F93-43AA-91C8-90B072FAD2D3}|CustomerOrder\\CustomerOrder.csproj|solutionrelative:customerorder\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CB3329-1F93-43AA-91C8-90B072FAD2D3}|CustomerOrder\\CustomerOrder.csproj|c:\\users\\tibame\\desktop\\mvc\\coremvc\\customerorder\\models\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CB3329-1F93-43AA-91C8-90B072FAD2D3}|CustomerOrder\\CustomerOrder.csproj|solutionrelative:customerorder\\models\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CB3329-1F93-43AA-91C8-90B072FAD2D3}|CustomerOrder\\CustomerOrder.csproj|c:\\users\\tibame\\desktop\\mvc\\coremvc\\customerorder\\partials\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CB3329-1F93-43AA-91C8-90B072FAD2D3}|CustomerOrder\\CustomerOrder.csproj|solutionrelative:customerorder\\partials\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5C20C2A-D133-49F0-8531-5079D0A1BAB2}|CustomersWebsite\\CustomersWebsite.csproj|c:\\users\\tibame\\desktop\\mvc\\coremvc\\customerswebsite\\models\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5C20C2A-D133-49F0-8531-5079D0A1BAB2}|CustomersWebsite\\CustomersWebsite.csproj|solutionrelative:customerswebsite\\models\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5C20C2A-D133-49F0-8531-5079D0A1BAB2}|CustomersWebsite\\CustomersWebsite.csproj|c:\\users\\tibame\\desktop\\mvc\\coremvc\\customerswebsite\\partials\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5C20C2A-D133-49F0-8531-5079D0A1BAB2}|CustomersWebsite\\CustomersWebsite.csproj|solutionrelative:customerswebsite\\partials\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 272,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\Tibame\\Desktop\\MVC\\CoreMVC\\CustomerOrder\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "CustomerOrder\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\Tibame\\Desktop\\MVC\\CoreMVC\\CustomerOrder\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "CustomerOrder\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T13:13:00.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Tibame\\Desktop\\MVC\\CoreMVC\\CustomerOrder\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "CustomerOrder\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\Tibame\\Desktop\\MVC\\CoreMVC\\CustomerOrder\\Models\\Customer.cs",
+              "RelativeToolTip": "CustomerOrder\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T13:12:54.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Tibame\\Desktop\\MVC\\CoreMVC\\CustomerOrder\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "CustomerOrder\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Tibame\\Desktop\\MVC\\CoreMVC\\CustomerOrder\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "CustomerOrder\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T13:12:53.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NorthwindContext.cs",
+              "DocumentMoniker": "C:\\Users\\Tibame\\Desktop\\MVC\\CoreMVC\\CustomerOrder\\Partials\\NorthwindContext.cs",
+              "RelativeDocumentMoniker": "CustomerOrder\\Partials\\NorthwindContext.cs",
+              "ToolTip": "C:\\Users\\Tibame\\Desktop\\MVC\\CoreMVC\\CustomerOrder\\Partials\\NorthwindContext.cs",
+              "RelativeToolTip": "CustomerOrder\\Partials\\NorthwindContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T13:22:21.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NorthwindContext.cs",
+              "DocumentMoniker": "C:\\Users\\Tibame\\Desktop\\MVC\\CoreMVC\\CustomerOrder\\Models\\NorthwindContext.cs",
+              "RelativeDocumentMoniker": "CustomerOrder\\Models\\NorthwindContext.cs",
+              "ToolTip": "C:\\Users\\Tibame\\Desktop\\MVC\\CoreMVC\\CustomerOrder\\Models\\NorthwindContext.cs",
+              "RelativeToolTip": "CustomerOrder\\Models\\NorthwindContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T13:22:16.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NorthwindContext.cs",
+              "DocumentMoniker": "C:\\Users\\Tibame\\Desktop\\MVC\\CoreMVC\\CustomersWebsite\\Partials\\NorthwindContext.cs",
+              "RelativeDocumentMoniker": "CustomersWebsite\\Partials\\NorthwindContext.cs",
+              "ToolTip": "C:\\Users\\Tibame\\Desktop\\MVC\\CoreMVC\\CustomersWebsite\\Partials\\NorthwindContext.cs",
+              "RelativeToolTip": "CustomersWebsite\\Partials\\NorthwindContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T13:20:52.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NorthwindContext.cs",
+              "DocumentMoniker": "C:\\Users\\Tibame\\Desktop\\MVC\\CoreMVC\\CustomersWebsite\\Models\\NorthwindContext.cs",
+              "RelativeDocumentMoniker": "CustomersWebsite\\Models\\NorthwindContext.cs",
+              "ToolTip": "C:\\Users\\Tibame\\Desktop\\MVC\\CoreMVC\\CustomersWebsite\\Models\\NorthwindContext.cs",
+              "RelativeToolTip": "CustomersWebsite\\Models\\NorthwindContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T13:20:42.758Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

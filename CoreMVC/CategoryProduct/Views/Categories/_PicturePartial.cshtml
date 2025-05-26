@@ -1,0 +1,19 @@
+﻿@model Category
+@inject NorthwindContext _context
+
+@{
+    Category? c =await _context.Categories.FindAsync(Model.CategoryId);
+    if (c != null && c.Picture != null){
+        <img src="@Url.Action("GetPicture","Categories",new{ id=Model.CategoryId})"
+        title="@Html.DisplayFor(model=>model.CategoryName)"
+        style="width:480px;height:360px" />
+    }
+    else
+    {
+        <img src="@Url.Content("~/images/noimage.jpg")"
+        title="尚無圖片"
+        style="width:480px;height:360px"/>
+    }
+ 
+    
+}

@@ -1,0 +1,10 @@
+﻿@page
+@model LockoutModel
+@{
+    ViewData["Title"] = "您累了嗎?";
+}
+
+<header>
+    <h1 class="text-danger">@ViewData["Title"]</h1>
+    <p class="text-danger">登入失敗達3次，帳戶已鎖定！請稍後再登入</p>
+</header>
