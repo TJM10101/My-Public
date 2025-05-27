@@ -1,0 +1,13 @@
+C:\Users\Tibame\Desktop\ASP.Net Core WebAPI\WebApi\OdataWinClient\bin\Debug\OdataWinClient.exe.config
+C:\Users\Tibame\Desktop\ASP.Net Core WebAPI\WebApi\OdataWinClient\bin\Debug\OdataWinClient.exe
+C:\Users\Tibame\Desktop\ASP.Net Core WebAPI\WebApi\OdataWinClient\bin\Debug\OdataWinClient.pdb
+C:\Users\Tibame\Desktop\ASP.Net Core WebAPI\WebApi\OdataWinClient\obj\Debug\OdataWinClient.csproj.AssemblyReference.cache
+C:\Users\Tibame\Desktop\ASP.Net Core WebAPI\WebApi\OdataWinClient\obj\Debug\OdataWinClient.Properties.Resources.resources
+C:\Users\Tibame\Desktop\ASP.Net Core WebAPI\WebApi\OdataWinClient\obj\Debug\OdataWinClient.csproj.GenerateResource.cache
+C:\Users\Tibame\Desktop\ASP.Net Core WebAPI\WebApi\OdataWinClient\obj\Debug\OdataWinClient.csproj.CoreCompileInputs.cache
+C:\Users\Tibame\Desktop\ASP.Net Core WebAPI\WebApi\OdataWinClient\obj\Debug\OdataWinClient.exe
+C:\Users\Tibame\Desktop\ASP.Net Core WebAPI\WebApi\OdataWinClient\obj\Debug\OdataWinClient.pdb
+C:\Users\Tibame\Desktop\ASP.Net Core WebAPI\WebApi\OdataWinClient\obj\Debug\OdataWinClient.Form1.resources
+C:\Users\Tibame\Desktop\ASP.Net Core WebAPI\WebApi\OdataWinClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tibame\Desktop\ASP.Net Core WebAPI\WebApi\OdataWinClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Tibame\Desktop\ASP.Net Core WebAPI\WebApi\OdataWinClient\obj\Debug\OdataWin.653EE9C6.Up2Date

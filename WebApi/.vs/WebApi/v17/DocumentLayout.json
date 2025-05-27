@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AppData\\KIKI\\Downloads\\WebApi-20250527T015446Z-1-001\\WebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D298ECEC-02EE-4426-A25B-A467085148BB}|EmployeeService\\EmployeeService.csproj|d:\\appdata\\kiki\\downloads\\webapi-20250527t015446z-1-001\\webapi\\employeeservice\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D298ECEC-02EE-4426-A25B-A467085148BB}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560AFF80-969C-4433-824A-7B5824FD12C3}|WebSiteClient\\WebSiteClient.csproj|d:\\appdata\\kiki\\downloads\\webapi-20250527t015446z-1-001\\webapi\\websiteclient\\views\\home\\customers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{560AFF80-969C-4433-824A-7B5824FD12C3}|WebSiteClient\\WebSiteClient.csproj|solutionrelative:websiteclient\\views\\home\\customers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D298ECEC-02EE-4426-A25B-A467085148BB}|EmployeeService\\EmployeeService.csproj|d:\\appdata\\kiki\\downloads\\webapi-20250527t015446z-1-001\\webapi\\employeeservice\\controllers\\customersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D298ECEC-02EE-4426-A25B-A467085148BB}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\controllers\\customersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560AFF80-969C-4433-824A-7B5824FD12C3}|WebSiteClient\\WebSiteClient.csproj|d:\\appdata\\kiki\\downloads\\webapi-20250527t015446z-1-001\\webapi\\websiteclient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560AFF80-969C-4433-824A-7B5824FD12C3}|WebSiteClient\\WebSiteClient.csproj|solutionrelative:websiteclient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560AFF80-969C-4433-824A-7B5824FD12C3}|WebSiteClient\\WebSiteClient.csproj|d:\\appdata\\kiki\\downloads\\webapi-20250527t015446z-1-001\\webapi\\websiteclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560AFF80-969C-4433-824A-7B5824FD12C3}|WebSiteClient\\WebSiteClient.csproj|solutionrelative:websiteclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560AFF80-969C-4433-824A-7B5824FD12C3}|WebSiteClient\\WebSiteClient.csproj|d:\\appdata\\kiki\\downloads\\webapi-20250527t015446z-1-001\\webapi\\websiteclient\\models\\rate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560AFF80-969C-4433-824A-7B5824FD12C3}|WebSiteClient\\WebSiteClient.csproj|solutionrelative:websiteclient\\models\\rate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 272,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customers.cshtml",
+              "DocumentMoniker": "D:\\AppData\\KIKI\\Downloads\\WebApi-20250527T015446Z-1-001\\WebApi\\WebSiteClient\\Views\\Home\\Customers.cshtml",
+              "RelativeDocumentMoniker": "WebSiteClient\\Views\\Home\\Customers.cshtml",
+              "ToolTip": "D:\\AppData\\KIKI\\Downloads\\WebApi-20250527T015446Z-1-001\\WebApi\\WebSiteClient\\Views\\Home\\Customers.cshtml",
+              "RelativeToolTip": "WebSiteClient\\Views\\Home\\Customers.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T15:09:10.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomersApiController.cs",
+              "DocumentMoniker": "D:\\AppData\\KIKI\\Downloads\\WebApi-20250527T015446Z-1-001\\WebApi\\EmployeeService\\Controllers\\CustomersApiController.cs",
+              "RelativeDocumentMoniker": "EmployeeService\\Controllers\\CustomersApiController.cs",
+              "ToolTip": "D:\\AppData\\KIKI\\Downloads\\WebApi-20250527T015446Z-1-001\\WebApi\\EmployeeService\\Controllers\\CustomersApiController.cs",
+              "RelativeToolTip": "EmployeeService\\Controllers\\CustomersApiController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwB8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T06:32:33.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Rate.cs",
+              "DocumentMoniker": "D:\\AppData\\KIKI\\Downloads\\WebApi-20250527T015446Z-1-001\\WebApi\\WebSiteClient\\Models\\Rate.cs",
+              "RelativeDocumentMoniker": "WebSiteClient\\Models\\Rate.cs",
+              "ToolTip": "D:\\AppData\\KIKI\\Downloads\\WebApi-20250527T015446Z-1-001\\WebApi\\WebSiteClient\\Models\\Rate.cs",
+              "RelativeToolTip": "WebSiteClient\\Models\\Rate.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T06:07:28.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\AppData\\KIKI\\Downloads\\WebApi-20250527T015446Z-1-001\\WebApi\\WebSiteClient\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebSiteClient\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\AppData\\KIKI\\Downloads\\WebApi-20250527T015446Z-1-001\\WebApi\\WebSiteClient\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebSiteClient\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T05:50:24.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "D:\\AppData\\KIKI\\Downloads\\WebApi-20250527T015446Z-1-001\\WebApi\\EmployeeService\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "EmployeeService\\Controllers\\EmployeesController.cs",
+              "ToolTip": "D:\\AppData\\KIKI\\Downloads\\WebApi-20250527T015446Z-1-001\\WebApi\\EmployeeService\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "EmployeeService\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T14:12:49.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\AppData\\KIKI\\Downloads\\WebApi-20250527T015446Z-1-001\\WebApi\\WebSiteClient\\Program.cs",
+              "RelativeDocumentMoniker": "WebSiteClient\\Program.cs",
+              "ToolTip": "D:\\AppData\\KIKI\\Downloads\\WebApi-20250527T015446Z-1-001\\WebApi\\WebSiteClient\\Program.cs",
+              "RelativeToolTip": "WebSiteClient\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T12:41:14.517Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

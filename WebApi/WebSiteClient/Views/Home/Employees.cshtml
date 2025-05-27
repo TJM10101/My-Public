@@ -1,0 +1,127 @@
+﻿<button id="getEmployees" class="btn btn-outline-primary">getEmployees</button>
+<button id="getEmployeesById" class="btn btn-outline-primary">getEmployeesById</button>
+<button id="postEmployee" class="btn btn-outline-primary">postEmployee</button>
+<button id="putEmployee" class="btn btn-outline-primary">putEmployee</button>
+<button id="deleteEmployee" class="btn btn-outline-primary">deleteEmployee</button>
+<button id="exchangeRate" class="btn btn-outline-primary">匯率查詢</button>
+@section Scripts
+{
+	<script>
+		var baseAddress="https://localhost:7191";   //Developing
+		// var baseAddress="https://xxx:yyy";		 //Staging
+		// var baseAddress="https://xxx:yyy";		 //Production
+		// var baseAddress="https://xxx:yyy";		 //Cloud
+		$("#getEmployees").on("click",function(){
+			 //alert("getEmployees");
+			fetch(`${baseAddress}/api/Employees`,{			//拿 baseAddress去串uri
+				method:"GET"
+			}).then(response=>{
+				if(response.ok){
+					return response.json();
+				}
+			}).then(data=>{
+				alert(JSON.stringify(data));
+			}).catch(err=>{
+				alert(err);
+			});
+		});
+		$("#getEmployeesById").on("click", async function(){
+			//alert("getEmployeeById");
+			try{
+				var response = await fetch(`${baseAddress}/api/Employees/1`,{
+					method:"GET"
+				});
+				if(response.ok){
+					var data=await response.json();
+					alert(JSON.stringify(data));
+				}
+			}
+			catch(err){
+				alert("error");
+			}
+		});
+		$("#postEmployee").on("click",async function(){
+			//alert("postEmployee");
+			var emp={
+					"employeeId":0,
+					"firstName":"TJM1",
+					"lastName":"Student1",
+					"Title":"Engineer1"
+			};
+			try{
+				var reponse = await fetch(`${baseAddress}/api/Employees`,{
+					method:"POST",
+					body:JSON.stringify(emp),
+					headers:{
+						"content-type":"application/json"//"內容格式":"json"(webApi預設接json)
+					}
+				});
+				if(reponse.ok){
+					var data=await reponse.text();
+					alert(data);
+				}
+			}
+			catch(err){
+				alert("Error");
+			}
+		});
+		$("#putEmployee").on("click",async function(){
+			//alert("putEmployee");
+			var emp={
+					"employeeId":1,
+					"firstName":"KKK",
+					"lastName":"L2L",
+					"Title":"MMM"
+			}
+			
+			try{
+				var reponse = await fetch(`${baseAddress}/api/Employees/1`,{
+					method:"PUT",
+					body:JSON.stringify(emp),
+					headers:{
+						"content-type":"application/json"
+					}
+				});
+				if(reponse.ok){
+					var data = await reponse.text();
+					alert(data);
+				}
+			}
+			catch(err){
+			 alert(err.message);
+			}
+		});
+		$("#deleteEmployee").on("click",async function(){
+			//alert("deleteEmployee");
+			try{
+				var reponse = await fetch (`${baseAddress}/api/Employees/15`,{
+					method:"DELETE"
+				});
+				if (reponse.ok){
+					var data = await reponse.text();
+					alert(data);
+				}
+			}
+			catch(err){
+				alert(err.message);
+			}
+		});
+		$("#exchangeRate").on("click",async function(){
+			//alert("exchangeRate");
+			try{
+				// var reponse = await fetch("https://openapi.taifex.com.tw/v1/DailyForeignExchangeRates",{
+				var reponse = await fetch("https://localhost:7204/Home/ExchangeRate",{
+					method:"GET"
+				});
+				if (reponse.ok){
+					var data = await reponse.text()
+					alert(data);
+				}
+			}
+			catch(err){
+				alert(err.message);
+			}
+
+		});
+	</script>
+}

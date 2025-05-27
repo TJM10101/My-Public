@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "新增設定檔",
+    "Projects": [
+      {
+        "Path": "EmployeeService\\EmployeeService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "WebSiteClient\\WebSiteClient.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

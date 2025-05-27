@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tibame\\Desktop\\MVC\\CoreMVC\\WebApplication1\\WebApplication1.csproj": {}
+    "D:\\AppData\\KIKI\\Documents\\My-Public\\CoreMVC\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tibame\\Desktop\\MVC\\CoreMVC\\WebApplication1\\WebApplication1.csproj": {
+    "D:\\AppData\\KIKI\\Documents\\My-Public\\CoreMVC\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tibame\\Desktop\\MVC\\CoreMVC\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "D:\\AppData\\KIKI\\Documents\\My-Public\\CoreMVC\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\Tibame\\Desktop\\MVC\\CoreMVC\\WebApplication1\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\Tibame\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tibame\\Desktop\\MVC\\CoreMVC\\WebApplication1\\obj\\",
+        "projectPath": "D:\\AppData\\KIKI\\Documents\\My-Public\\CoreMVC\\WebApplication1\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\kiki\\.nuget\\packages\\",
+        "outputPath": "D:\\AppData\\KIKI\\Documents\\My-Public\\CoreMVC\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Tibame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kiki\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -95,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

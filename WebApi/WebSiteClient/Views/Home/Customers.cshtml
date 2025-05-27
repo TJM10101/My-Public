@@ -1,0 +1,62 @@
+﻿@section Styles
+{
+	<link href="~/lib/datatables/css/jquery.datatables.min.css" rel="stylesheet" />
+	<style></style>
+}
+<button class="btn-primary" onclick="next5()">下五筆</button>
+<tb></tb>
+<table class="table table-striped table-hover">
+    <thead class="table-primary">
+		<tr>
+			<td>CustomerId</td>
+			<td>CompanyName</td>
+			<td>ContactName</td>
+			<td>ContactTitle</td>
+			<td>Phone</td>
+		</tr>
+	</thead>
+	
+</table>
+
+@section Scripts
+{
+	<script src="~/lib/datatables/js/jquery.datatables.min.js"></script>
+	<script>
+		var skipCount=0;
+		var pageCount=5;
+		var baseAddress="https://localhost:7191";
+		
+		function next5(){
+			// alert("next5");
+			skipCount=localStorage.getItem("SkipCount");
+			skipCount=skipCount==null? 0: Number(skipCount);
+			fetchCustomers();
+			skipCount+=pageCount;
+			localStorage.setItem("SkipCount",skipCount);
+		}
+		function fetchCustomers(){
+		var uri=`${baseAddress}/odata/CustomersApi?$select=CustomerId,CompanyName,ContactName,ContactTitle,Phone&$skip=${skipCount}&$top=${pageCount}`;
+			$("table").dataTable({
+				ajax:{
+					type:"GET",
+					url:uri,
+					dataSrc:function(json){
+						return json
+					}
+				},
+				columns:[
+					{data:"CustomerId",width:"20%"},
+					{data:"CompanyName",width:"20%"},
+					{data:"ContactName",width:"20%"},
+					{data:"ContactTitle",width:"20%"},
+					{data:"Phone",width:"20%"}
+				],
+				language:{
+					url:'//cdn.datatables.net/plug-ins/2.2.2/i18n/zh-HANT.json',
+				},
+				bDestroy:true
+			});
+		}
+
+	</script>
+}
